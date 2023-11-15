@@ -24,7 +24,16 @@ $count = $stmt->fetchColumn();
 
    <script src="./assets/js/jquery.min.js"></script>
    <script src="./assets/js/search.js"></script>
-   
+<!-- include swiper -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <!-- inlcude styles.css on adygadgets.com/assets/css/styles.css -->
+   <link rel="stylesheet" href="https://adygadgets.com/assets/css/styles.css">
+
+   <script src="./assets/js/api.js"></script>
+   <script src="./assets/js/api2.js"></script>
+
    <title>QRCodes UG</title>
 </head>
 
@@ -228,10 +237,10 @@ $count = $stmt->fetchColumn();
 
                <form class="join__form" method="" action="">
                   <input type="text" class="join__input" placeholder="e.g www.adygadgets.com or +256757591879" name="url" id="url">
-                     <button class="button join__button" id="generate_button">
+                  <button class="button join__button" id="generate_button">
                      Generate <i class="uil uil-arrow-right"></i>
                   </button>
-                  
+
                </form>
                <div class="qrdownload" id="display_hide">
                   <div class="result" id="display">
@@ -242,68 +251,18 @@ $count = $stmt->fetchColumn();
          </div>
       </section>
 
-      <!--==================== ROUTINE ====================
-      <section class="routine section" id="routine">
-         <div class="routine__container container grid">
-            <div class="routine__data">
-               <h2 class="section__title">
-                  Want your QRCode to do something different?
-               </h2>
-
-               <p class="routine__description">
-                  Explain what you want your QRCode to do to
-                  us and we will make it for you for free.. Maybe?!.
-               </p>
-
-               <a href="tel:+256757591879" class="button">
-                  Get Started Now <i class="uil uil-arrow-right"></i>
-               </a>
-            </div>
-
-            <div class="routine__images">
-               <!-- <img src="./assets/img/Scan Barcode.png" alt="" class="routine__img-1"> -->
-               <!-- <img src="./assets/img/qrimage.png" alt="" class="routine__img-2">
-
-               <div class="routine__box-1">
-                  <i class="uil uil-play routine__icon"></i>
-                  <span class="routine__title">
-                     High Quality QRCodes
-                  </span>
-               </div>
-
-               <div class="routine__box-2">
-                  <i class="uil uil-border-clear routine__icon"></i>
-                  <span class="routine__title">
-                     Clear Quality
-                  </span>
-               </div>
-            </div>
-         </div>
-      </section> -->
-
       <!--==================== FOLLOW ====================-->
       <section class="follow section" id="follow">
          <div class="follow__container container grid">
             <div class="follow__content-1">
                <div class="follow__data">
                   <h2 class="section__title follow__title">
-                     Follow Us On Instagram
-                     <div class="">#QRCodes UG</div>
+                     Support us by buying from <br>our store <a href="http://adygadgets.com">adygadgets.com</a>
                   </h2>
-
-                  <a href="https://instagram.com/george_adrian_s" class="button follow_button">
-                     Follow <i class="uil uil-arrow-right"></i>
-                  </a>
                </div>
-
-               <!-- <img src="./assets//img/follow-yoga-1.png" alt="" class="follow__img-1">
-               <img src="./assets//img/follow-yoga-2.png" alt="" class="follow__img-2"> -->
             </div>
 
-            <div class="follow__content-2">
-               <!-- <img src="./assets/img/follow-yoga-3.png" alt="" class="follow__img-3">
-               <img src="./assets/img/follow-yoga-4.png" alt="" class="follow__img-4"> -->
-            </div>
+            
          </div>
       </section>
 
